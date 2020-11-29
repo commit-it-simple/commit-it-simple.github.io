@@ -1,3 +1,17 @@
+# Git-Conga Readme
+
+## Installation
+
+1. Setup Ruby and Jekyll environment
+    
+        # https://jekyllrb.com/docs/installation/ubuntu/
+        $ sudo apt-get install ruby-full build-essential zlib1g-dev
+        $ echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+        $ echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+        $ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+        $ source ~/.bashrc
+        $ gem install jekyll bundler
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/git-conga/git-conga/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
