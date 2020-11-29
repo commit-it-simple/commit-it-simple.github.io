@@ -29,6 +29,7 @@
             <h2>{{ page.description | default: site.tagline | default: site.description | default: site.github.project_tagline }}</h2>
           </a>
         </header>
+        {% if site.show_downloads or site.github.public %}
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -42,6 +43,7 @@
 	  {% endif %}
 	{% endif %}
         </section>
+        {% endif %}
         <hr>
         <section id="main_content">
           {{ content }}
