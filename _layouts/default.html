@@ -44,7 +44,18 @@
 	{% endif %}
         </section>
         {% endif %}
+
+        {% assign nav_pages = site.html_pages | where_exp: "page", "page.nav-order != nil" | sort: "nav-order" %}
+        {% if nav_pages.size >= 2 %}
+        <nav class="clearfix">
+          {% for p in nav_pages %}
+          <span><a href="{{ p.url }}">{{ p.title }}</a></span>
+          {% endfor %}
+        </nav>
+        {% endif %}
+
         <hr>
+
         <section id="main_content">
           {{ content }}
         </section>

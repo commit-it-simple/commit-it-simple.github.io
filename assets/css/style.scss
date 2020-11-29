@@ -3,9 +3,21 @@
 
 @import "{{ site.theme }}";
 
+a:hover {
+  color: darken(#d5000d, 20%);
+}
+
 .logo{
     float: left;
     height: 96.8px;
     max-width: 100px;
     padding-right: 0.9em;
+}
+
+nav {
+    text-align: center;
+}
+
+nav span+span::before {
+    content: " • "
 }
