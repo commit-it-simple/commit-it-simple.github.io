@@ -48,11 +48,15 @@ Git-Conga messages SHALL be written in the format below:
 
 ### Breaking
 
+> breaking fix: replace hovercraft's doors with windows
+
 Life is hard, changes can be tough, sometimes to move forward one must break with the past. This has can have negative consequences but these can be greatly reduced if you know what the consequences are and how to work around them.
 
 If you've made a change that breaks an external piece of code, a physical resource, or a human-machine interaction, flag it with the keyword `breaking` so that others are aware of the change. Make sure to adequately document the alteration in the `<description>` and provide advice on other systems can adapt to the breaking change.
 
 ### Type
+
+> docs: update loading instructions in readme
 
 The `<type>` describes the nature of the commit, and is one of the two compulsory parameters.
 It is RECOMMENDED to be one of:
@@ -75,23 +79,58 @@ Creators of tools based on Git-Conga SHOULD take the fallibility of humans into 
 
 ### Scope
 
+> test (hovercraft): check the maximum loading weight
+
 Denoting the `<scope>` of a change is OPTIONAL, but can be a useful method of grouping commits that alter a common piece of code. A module, file, or folder name is often appropiate.
 
 ### Description
+
+> feat: teach eels Hungarian
 
 A one-liner that provides a brief overview of the change that has been made. Keep it short and to the point. Start the `<description>` by using a doing-word. See what I did there? Like that.
 
 ### Body
 
+> build: load the eels into the hovercraft
+>
+> I would like some matches for cigarettes
+
 This is the body of the commit message and where all the important details live. Remember, _what_ you've changed is already part of the commit, what other developers (and future you) need to know is _why_ you made the change, or made the change in the way you did.
 
 ### Capitalisation
 
+> style: My hovercraft is full of Eels
+
 While sticking to lowercase avoids confusion, sometimes capital letters are required. The important part is to keep it consistent within a repositiory. Remember: useful, simple, beautiful.
 
-## Examples
+## More Complex Examples
 
-_To be added._
+All of the examples below are acceptable Git-Conga commit message formats:
+
+**The simplest message:**
+
+style: isn't it neat
+
+**Defining scope:**
+
+docs(gadgets): remember the gizmos
+
+**Signalling a breaking change**
+
+breaking feat: add the whozits
+
+**Defining scope, including a space:**
+
+fix (whatsits): repair the thingamabobs
+
+**Multiple lines:**
+
+test: How many have I got?  
+  
+I've got twenty  
+But who cares?  
+  
+I want more
 
 ## Inspired by
 
