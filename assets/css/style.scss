@@ -3,8 +3,28 @@
 
 @import "{{ site.theme }}";
 
+$base-color: #d5000d;
+$base-color-dark: darken($base-color, 10%);
+
+h3 {
+  color: $base-color;
+}
+
+a {
+  color: $base-color;
+}
 a:hover {
-  color: darken(#d5000d, 20%);
+  color: $base-color-dark;
+}
+
+blockquote {
+  font-size: 1.4em;
+  border-left: 10px solid #d9d9d9;
+}
+
+ul li {
+  list-style-position: inside;
+  list-style-type: disc;
 }
 
 .logo{
@@ -18,6 +38,15 @@ nav {
   text-align: center;
 }
 
+nav a {
+  font-size: 1.2em;
+}
+
 nav span+span::before {
-  content: " • "
+  content: "   •   " /* [space][nbsp][space]•[space][nbsp][space] */
+}
+
+h3 + blockquote {
+  color: $base-color-dark;
+  font-size: 1.2em;
 }
