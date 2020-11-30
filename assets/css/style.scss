@@ -8,16 +8,16 @@ a:hover {
 }
 
 .logo{
-    float: left;
-    height: 96.8px;
-    max-width: 100px;
-    padding-right: 0.9em;
+  float: left;
+  height: 96.8px;
+  max-width: 100px;
+  padding-right: 0.9em;
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 nav span+span::before {
-    content: " • "
+  content: " • "
 }
