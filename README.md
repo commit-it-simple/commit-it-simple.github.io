@@ -1,3 +1,7 @@
+---
+permalink: /readme/
+---
+
 # Git-By-Numbers Readme
 
 ## Installation
