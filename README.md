@@ -1,4 +1,4 @@
-# Git-Conga Readme
+# Git-By-Numbers Readme
 
 ## Installation
 
@@ -12,7 +12,7 @@
         $ source ~/.bashrc
         $ gem install jekyll bundler
 
-2. Clone, initiliase, and serve Git-Conga
+2. Clone, initiliase, and serve Git-By-Numbers
 
         $ git clone git@github.com:git-conga/git-conga.github.io.git
         $ cd git-conga.github.io/

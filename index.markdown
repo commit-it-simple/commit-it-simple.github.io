@@ -19,7 +19,7 @@ All commit messages must be of the general format:
 
 Git commit messages, like the comments that we _should_ be adding to our code, are means of putting the abstract and conceptual into easily relatable words. A good commit log will allow you to understand the intentions behind you or someone else's code, potentially enabling you to successfully complete a hot-fix to production code at an inconvenient hour of the night.
 
-> Git-Conga is a simple tool to clarify the thoughts and intentions of a software programmer. It is designed to be **useful**, **simple**, and **beautiful**. In that order.
+> Git-By-Numbers is a simple tool to clarify the thoughts and intentions of a software programmer. It is designed to be **useful**, **simple**, and **beautiful**. In that order.
 
 Writing good software is hard. Engineering is a creative endevour at its heart. Like a beautifully created artwork, the end result should bring joy to its beholder. Simpler is almost always better.
 
@@ -40,7 +40,7 @@ By flagging changes in commit messages as breaking, a feature, or a fix, it beco
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
-Git-Conga messages SHALL be written in the format below:
+Git-By-Numbers messages SHALL be written in the format below:
 
     [OPTIONAL breaking ]<type>[ OPTIONAL (<scope>)]: <description>
 
@@ -75,7 +75,7 @@ The types above are explained in the blog post [Understanding Semantic Commit Me
 
 Other types may be used instead, particularly for projects that are not of a programming nature, eg: books, documents, Latex reports, system-definitions, use-your-imagination. What is suggested, is that the list of types cover a wide range of functional aspects of the project and are limited to a maximum of ten for appropiate re-useability within a project.
 
-Creators of tools based on Git-Conga SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
+Creators of tools based on Git-By-Numbers SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
 
 ### Scope
 
@@ -105,7 +105,7 @@ While sticking to lowercase avoids confusion, sometimes capital letters are requ
 
 ## More Complex Examples
 
-All of the examples below are acceptable Git-Conga commit message formats:
+All of the examples below are acceptable Git-By-Numbers commit message formats:
 
 **The simplest message:**
 
