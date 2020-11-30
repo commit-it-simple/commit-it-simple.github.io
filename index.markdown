@@ -8,7 +8,7 @@ nav-order: 0
 
 ## Summary
 
-All commit messages should be of the general style:
+All commit messages must be of the general format:
     
     <type>: <description>
 
@@ -17,15 +17,26 @@ All commit messages should be of the general style:
 
 ## Introduction
 
-Git commit messages, like the comments that we _should_ be adding to our code, are means of putting the abstract and conceptual into easily relatable words. A good commit log can be the difference between the success or failure of understanding your own intentions six-months ago, understanding someone else's intentions a year ago, or a hot-fix to production code at an inconvenient hour of the night.
+Git commit messages, like the comments that we _should_ be adding to our code, are means of putting the abstract and conceptual into easily relatable words. A good commit log will allow you to understand the intentions behind you or someone else's code, potentially enabling you to successfully complete a hot-fix to production code at an inconvenient hour of the night.
 
-A light-weight structure to write commit messages around is a simple tool that can add great clarity to the thoughts and intentions of a software programmer.
+> Git-Conga is a simple tool to clarify the thoughts and intentions of a software programmer. It is designed to be **useful**, **simple**, and **beautiful**. In that order.
 
-Git-Conga is designed first to be **helpful**, secondly **simple**, and thirdly **beautiful**. In that order.
+Writing good software is hard. Engineering is a creative endevour at its heart. Like a beautifully created artwork, the end result should bring joy to its beholder. Simpler is almost always better.
 
-Adopting new concepts, techniques, or tools come at an investment cost. If the result is not benefitial, the change-over isn't worth it. Computers and the software that run on them is as inherently complex as the humans that design and use them. Programmers need tools to make life simpler - this should be one of them. Software engineering is a creative endevour at its heart and - like a beautifully created artwork - should bring joy to its beholder. 
+The framework to support this should be as simple and effective as a [colour by numbers](https://en.wikipedia.org/wiki/Paint_by_number) kit.
 
-## Specification
+## Version Control
+
+Integrating well-formed commit messages with [Semantic Versioning](https://semver.org/) version numbers allows the messages in yout git log to specify your next version.
+
+For a version number [MAJOR.MINOR.PATCH](https://semver.org/#summary), increment:
+- MAJOR when incompatible or breaking changes are made
+- MINOR when backwards compatible features are added
+- PATCH when backwards compatible fixes are made
+
+By flagging changes in commit messages as breaking, a feature, or a fix, it becomes easy for an automated tool to suggest the next version number to be released. Less work for the developer, better version control for the user - a win-win situation. The programmer is now freed up to perform more important tasks.
+
+## Full Specification
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
@@ -56,11 +67,11 @@ It is RECOMMENDED to be one of:
 * `style`
 * `test`
 
+The types above are explained in the blog post [Understanding Semantic Commit Messages Using Git and Angular](https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/#common-types).
+
 Other types may be used instead, particularly for projects that are not of a programming nature, eg: books, documents, Latex reports, system-definitions, use-your-imagination. What is suggested, is that the list of types cover a wide range of functional aspects of the project and are limited to a maximum of ten for appropiate re-useability within a project.
 
 Creators of tools based on Git-Conga SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
-
-For a good summary of what the types above mean, please see [Understanding Semantic Commit Messages Using Git and Angular](https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/).
 
 ### Scope
 
@@ -76,7 +87,7 @@ This is the body of the commit message and where all the important details live.
 
 ### Capitalisation
 
-Capitalisation can be a tricky, but many might find it helpful to stick to lowercase. The important part is to keep it consistent within a repositiory. Remember: helpful, simple, beautify.
+While sticking to lowercase avoids confusion, sometimes capital letters are required. The important part is to keep it consistent within a repositiory. Remember: useful, simple, beautiful.
 
 ## Examples
 
