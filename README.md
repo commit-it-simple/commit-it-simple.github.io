@@ -23,7 +23,7 @@ permalink: /readme/
         $ bundle install
         $ bundle exec jekyll serve --livereload
 
-3. Visit http://127.0.0.1:4000/
+3. Visit <http://127.0.0.1:4000/>
 
 ## Welcome to GitHub Pages
 
