@@ -97,6 +97,10 @@ A one-liner that provides a brief overview of the change that has been made. Kee
 
 This is the body of the commit message and where all the important details live. Remember, _what_ you've changed is already part of the commit, what other developers (and future you) need to know is _why_ you made the change, or made the change in the way you did.
 
+### Whitespace
+
+The inclusion of spaces within the first line is OPTIONAL, however a space SHOULD be included after the first colon to improve readibilty.
+
 ### Capitalisation
 
 > style: My hovercraft is full of Eels
