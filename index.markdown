@@ -48,7 +48,14 @@ Git-By-Numbers messages SHALL be written in the format below:
 
 Where angled brackets `<>` denotes a parameter name, text surrounded by square brackets `[]` is OPTIONAL, and pipe `|` denotes multiple valid options.
 
-### 1. Breaking
+### 1. Characters
+
+`<type>` MUST consist of only ASCII alphanumeric characters and hypens [0-9A-Za-z-]  
+`<scope>` MUST consist of only ASCII alphanumeric characters, hypens, or dots [0-9A-Za-z-.]  
+`<description>` MUST consist of any 'normal' ASCII character barring new-lines  
+`<body>` MUST consist of any 'normal' ASCII character barring control characters
+
+### 2. Breaking
 
 > breaking fix: replace hovercraft's doors with windows
 
@@ -56,7 +63,7 @@ Life is hard, changes can be tough, sometimes to move forward one must break wit
 
 If you've made a change that breaks an external piece of code, a physical resource, or a human-machine interaction, flag it with the keyword `breaking` so that others are aware of the change. Alternatively, add an exclamation mark before or after the `<type>`. Make sure to adequately document the alteration in the `<description>` and provide advice on other systems can adapt to the breaking change.
 
-### 2. Type
+### 3. Type
 
 > docs: update loading instructions in readme
 
@@ -79,19 +86,19 @@ Other types may be used instead, particularly for projects that are not of a pro
 
 Creators of tools based on Git-By-Numbers SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
 
-### 3. Scope
+### 4. Scope
 
 > test (hovercraft): check the maximum loading weight
 
 Denoting the `<scope>` of a change is OPTIONAL, but can be a useful method of grouping commits that alter a common piece of code. A module, file, or folder name is often appropiate.
 
-### 4. Description
+### 5. Description
 
 > feat: teach eels Hungarian
 
 A one-liner that provides a brief overview of the change that has been made. Keep it short and to the point. Start the `<description>` by using a doing-word. See what I did there? Like that.
 
-### 5. Body
+### 6. Body
 
 > build: load the eels into the hovercraft
 >
@@ -99,11 +106,11 @@ A one-liner that provides a brief overview of the change that has been made. Kee
 
 This is the body of the commit message and where all the important details live. Remember, _what_ you've changed is already part of the commit, what other developers (and future you) need to know is _why_ you made the change, or made the change in the way you did.
 
-### 6. Whitespace
+### 7. Whitespace
 
 The inclusion of spaces within the first line is OPTIONAL, however a space SHOULD be included after the first colon to improve readibilty.
 
-### 7. Capitalisation
+### 8. Capitalisation
 
 > style: My hovercraft is full of Eels
 
