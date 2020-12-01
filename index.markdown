@@ -42,9 +42,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Git-By-Numbers messages SHALL be written in the format below:
 
-    [OPTIONAL breaking ]<type>[ OPTIONAL (<scope>)]: <description>
+    [breaking ]<type>[[ ](<scope>)]:[ ]<description>
 
-    [OPTIONAL body]
+    [<body>]
+
+Where angled brackets `<>` denotes a parameter name and text surrounded by square brackets `[]` is OPTIONAL.
 
 ### 1. Breaking
 
