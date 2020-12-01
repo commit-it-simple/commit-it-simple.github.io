@@ -57,7 +57,7 @@ Where angled brackets `<>` denotes a parameter name, text surrounded by square b
 
 ### 2. Breaking
 
-> breaking fix: replace hovercraft's doors with windows
+> BREAKING fix: replace hovercraft's doors with windows
 
 Life is hard, changes can be tough, sometimes to move forward one must break with the past. This has can have negative consequences but these can be greatly reduced if you know what the consequences are and how to work around them.
 
