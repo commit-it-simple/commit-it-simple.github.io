@@ -42,11 +42,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Git-By-Numbers messages SHALL be written in the format below:
 
-    [breaking ]<type>[[ ](<scope>)]:[ ]<description>
+    [![ ]|breaking ]<type>[[ ](<scope>)][[ ]!]:[ ]<description>
 
     [<body>]
 
-Where angled brackets `<>` denotes a parameter name and text surrounded by square brackets `[]` is OPTIONAL.
+Where angled brackets `<>` denotes a parameter name, text surrounded by square brackets `[]` is OPTIONAL, and pipe `|` denotes multiple valid options.
 
 ### 1. Breaking
 
@@ -54,7 +54,7 @@ Where angled brackets `<>` denotes a parameter name and text surrounded by squar
 
 Life is hard, changes can be tough, sometimes to move forward one must break with the past. This has can have negative consequences but these can be greatly reduced if you know what the consequences are and how to work around them.
 
-If you've made a change that breaks an external piece of code, a physical resource, or a human-machine interaction, flag it with the keyword `breaking` so that others are aware of the change. Make sure to adequately document the alteration in the `<description>` and provide advice on other systems can adapt to the breaking change.
+If you've made a change that breaks an external piece of code, a physical resource, or a human-machine interaction, flag it with the keyword `breaking` so that others are aware of the change. Alternatively, add an exclamation mark before or after the `<type>`. Make sure to adequately document the alteration in the `<description>` and provide advice on other systems can adapt to the breaking change.
 
 ### 2. Type
 
