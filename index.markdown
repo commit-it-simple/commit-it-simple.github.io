@@ -46,7 +46,7 @@ Git-By-Numbers messages SHALL be written in the format below:
 
     [OPTIONAL body]
 
-### Breaking
+### 1. Breaking
 
 > breaking fix: replace hovercraft's doors with windows
 
@@ -54,7 +54,7 @@ Life is hard, changes can be tough, sometimes to move forward one must break wit
 
 If you've made a change that breaks an external piece of code, a physical resource, or a human-machine interaction, flag it with the keyword `breaking` so that others are aware of the change. Make sure to adequately document the alteration in the `<description>` and provide advice on other systems can adapt to the breaking change.
 
-### Type
+### 2. Type
 
 > docs: update loading instructions in readme
 
@@ -77,19 +77,19 @@ Other types may be used instead, particularly for projects that are not of a pro
 
 Creators of tools based on Git-By-Numbers SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
 
-### Scope
+### 3. Scope
 
 > test (hovercraft): check the maximum loading weight
 
 Denoting the `<scope>` of a change is OPTIONAL, but can be a useful method of grouping commits that alter a common piece of code. A module, file, or folder name is often appropiate.
 
-### Description
+### 4. Description
 
 > feat: teach eels Hungarian
 
 A one-liner that provides a brief overview of the change that has been made. Keep it short and to the point. Start the `<description>` by using a doing-word. See what I did there? Like that.
 
-### Body
+### 5. Body
 
 > build: load the eels into the hovercraft
 >
@@ -97,11 +97,11 @@ A one-liner that provides a brief overview of the change that has been made. Kee
 
 This is the body of the commit message and where all the important details live. Remember, _what_ you've changed is already part of the commit, what other developers (and future you) need to know is _why_ you made the change, or made the change in the way you did.
 
-### Whitespace
+### 6. Whitespace
 
 The inclusion of spaces within the first line is OPTIONAL, however a space SHOULD be included after the first colon to improve readibilty.
 
-### Capitalisation
+### 7. Capitalisation
 
 > style: My hovercraft is full of Eels
 
