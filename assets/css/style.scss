@@ -32,6 +32,15 @@ ul li {
   height: 96.8px;
   max-width: 100px;
   padding-right: 0.9em;
+  filter:
+    drop-shadow(1px 0px 0 #444)
+    drop-shadow(-1px 0px 0 #444)
+    drop-shadow(0px 1px 0 #444)
+    drop-shadow(0px -1px 0 #444)
+    drop-shadow(1px 1px 0 #444)
+    drop-shadow(-1px 1px 0 #444)
+    drop-shadow(1px -1px 0 #444)
+    drop-shadow(-1px -1px 0 #444)
 }
 
 nav {

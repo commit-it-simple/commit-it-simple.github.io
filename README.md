@@ -2,7 +2,7 @@
 permalink: /readme/
 ---
 
-# Git-By-Numbers Readme
+# Commit-It-Simple Readme
 
 ## Installation
 
@@ -16,10 +16,10 @@ permalink: /readme/
         $ source ~/.bashrc
         $ gem install jekyll bundler
 
-2. Clone, initiliase, and serve Git-By-Numbers
+2. Clone, initiliase, and serve Commit-It-Simple
 
-        $ git clone git@github.com:git-conga/git-conga.github.io.git
-        $ cd git-conga.github.io/
+        $ git clone git@github.com:commit-it-simple/commit-it-simple.github.io.git
+        $ cd commit-it-simple.github.io/
         $ bundle install
         $ bundle exec jekyll serve --livereload
 
@@ -27,7 +27,7 @@ permalink: /readme/
 
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/git-conga/git-conga/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/commit-it-simple/commit-it-simple/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -57,7 +57,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/git-conga/git-conga/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/commit-it-simple/commit-it-simple/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
