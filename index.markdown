@@ -21,11 +21,11 @@ Git commit messages, like the comments that we _should_ be adding to our code, a
 
 > Commit-It-Simple is a simple tool to clarify the thoughts and intentions of a software programmer. It is designed to be **useful**, **simple**, and **beautiful**. In that order.
 
-Writing good software is hard. Engineering is a creative endevour at its heart. Like a beautifully created artwork, the end result should bring joy to its beholder. Simpler is almost always better.
+Writing good software is hard. Engineering is a creative endeavour at its heart. Like a beautifully created artwork, the end result should bring joy to its beholder. Simpler is almost always better.
 
 ## Version Control
 
-Integrating well-formed commit messages with [Semantic Versioning](https://semver.org/) version numbers allows the messages in yout git log to specify your next version.
+Integrating well-formed commit messages with [Semantic Versioning](https://semver.org/) version numbers allows the messages in your git log to specify your next version.
 
 For a version number [MAJOR.MINOR.PATCH](https://semver.org/#summary), increment:
 - MAJOR when incompatible or breaking changes are made
@@ -80,7 +80,7 @@ It is RECOMMENDED to be one of:
 
 The types above are explained in the blog post [Understanding Semantic Commit Messages Using Git and Angular](https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/#common-types).
 
-Other types may be used instead, particularly for projects that are not of a programming nature, eg: books, documents, Latex reports, system-definitions, use-your-imagination. What is suggested, is that the list of types cover a wide range of functional aspects of the project and are limited to a maximum of ten for appropiate re-useability within a project.
+Other types may be used instead, particularly for projects that are not of a programming nature, eg: books, documents, Latex reports, system-definitions, use-your-imagination. What is suggested, is that the list of types cover a wide range of functional aspects of the project and are limited to a maximum of ten for appropriate re-usability within a project.
 
 Creators of tools based on Commit-It-Simple SHOULD take the fallibility of humans into account. As such, variations on the spellings of types like `feat`, `feature`, and `features`, or `doc`, and `docs` SHOULD be treated as being equal. Be slow to anger and quick to forgive.
 
@@ -88,7 +88,7 @@ Creators of tools based on Commit-It-Simple SHOULD take the fallibility of human
 
 > test (hovercraft): check the maximum loading weight
 
-Denoting the `<scope>` of a change is OPTIONAL, but can be a useful method of grouping commits that alter a common piece of code. A module, file, or folder name is often appropiate.
+Denoting the `<scope>` of a change is OPTIONAL, but can be a useful method of grouping commits that alter a common piece of code. A module, file, or folder name is often appropriate.
 
 ### 5. Description
 
@@ -106,13 +106,13 @@ This is the body of the commit message and where all the important details live.
 
 ### 7. Whitespace
 
-The inclusion of spaces within the first line is OPTIONAL, however a space SHOULD be included after the first colon to improve readibilty.
+The inclusion of spaces within the first line is OPTIONAL, however a space SHOULD be included after the first colon to improve readability.
 
 ### 8. Capitalisation
 
 > style: My hovercraft is full of Eels
 
-While sticking to lowercase avoids confusion, sometimes capital letters are required. The important part is to keep it consistent within a repositiory. Remember: useful, simple, beautiful.
+While sticking to lowercase avoids confusion, sometimes capital letters are required. The important part is to keep it consistent within a repository. Remember: useful, simple, beautiful.
 
 ## More Complex Examples
 
@@ -126,7 +126,7 @@ style: isn't it neat
 
 docs(gadgets): remember the gizmos
 
-**Signalling a breaking change**
+**Signaling a breaking change**
 
 breaking feat: add the whozits
 
