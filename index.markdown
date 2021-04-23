@@ -151,15 +151,3 @@ I want more
 * [Understanding Semantic Commit Messages Using Git and Angular](https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/)
 * [git_commits.py](https://gist.github.com/simonw/091b765a071d1558464371042db3b959#file-get_commits-py)
 <!-- * [Commit Message Emoji](https://github.com/dannyfritz/commit-message-emoji) -->
-
-
-<!-- ## Emoji
-
-Adding the --emoji flag will add emoji after each heading in the changelog. Below is the list of emoji that are used:
-
-* Docs 📝
-* Features ✨
-* Fixes 🐛
-* Performance ⚡️
-* Refactorings ♻️
-* Other 🃏 -->
